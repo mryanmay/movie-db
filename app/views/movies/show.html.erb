@@ -1,0 +1,15 @@
+<div class="main">
+  <div class="container">
+    <div class="movie">
+      <div class="summary">
+        <h2 class="movie-title"><%= @movie.title %></h2>
+      </div>
+    </div>
+    <h2>Stars</h2>
+    <% @actors.each do |actor| %>
+      <div class="actor">
+        <h3 class="actor-name"><%= link_to actor.name, actor_path(actor) %></h3>
+      </div>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+fieldset {
+  margin: 0 0 10px 0;
+  padding: 10px 20px;
+
+  label {
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  ol {
+    list-style: none;
+    padding: 5px;
+
+    li {
+      margin: 0 0 15px 0;
+    }
+  }
+}
